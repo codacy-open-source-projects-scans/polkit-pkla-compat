@@ -1,0 +1,84 @@
+# Georgian translation for polkit-pkla-compa.
+# Copyright (C) 2023 David Zeuthen <davidz@redhat.com>
+# This file is distributed under the same license as the polkit-pkla-compat package.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: polkit-pkla-compat 0.1\n"
+"Report-Msgid-Bugs-To: https://fedorahosted.org/polkit-pkla-compat/\n"
+"POT-Creation-Date: 2023-01-16 05:27+0100\n"
+"PO-Revision-Date: 2023-01-16 05:31+0100\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: src/pkla-admin-identities.c:91
+msgid "Use configuration files in DIR"
+msgstr "საქაღალდეში არსებული კონფიგურაციის ფაილების გამოყენება"
+
+#: src/pkla-admin-identities.c:91
+msgid "DIR"
+msgstr "საქაღალდე"
+
+#: src/pkla-admin-identities.c:109
+msgid "Interprets pklocalauthority(8) configuration files."
+msgstr "Pklocalauthority(8) კონფიგურაციის ფაილების ინტერპრეტაცია."
+
+#: src/pkla-admin-identities.c:115 src/pkla-check-authorization.c:383
+#, c-format
+msgid ""
+"%s: %s\n"
+"Run `%s --help' for more information.\n"
+msgstr ""
+"%s: %s\n"
+"მეტი ინფორმაციისთვის გამოიყენეთ `%s --help'.\n"
+
+#: src/pkla-admin-identities.c:125
+#, c-format
+msgid ""
+"%s: unexpected argument\n"
+"Run `%s --help' for more information.\n"
+msgstr ""
+"%s: მოულოდნელი არგუმენტი\n"
+"მეტი ინფორმაციისთვის გამოიყენეთ `%s --help'.\n"
+
+#: src/pkla-check-authorization.c:346
+msgid "Invalid boolean value"
+msgstr "ლოგიკური ცვლადის არასწორი მნიშვნელობა"
+
+#: src/pkla-check-authorization.c:357
+msgid "Use authorization 'top' directories in ;-separated PATH"
+msgstr ";-ით გამოყოფილ ბილიკებში 'ზედა' საქაღალდეების ავტორიზაციის გამოყენება"
+
+#: src/pkla-check-authorization.c:357
+msgid "PATH"
+msgstr "ბილიკი"
+
+#: src/pkla-check-authorization.c:377
+msgid "Interprets pklocalauthority(8) authorization files."
+msgstr "Pklocalauthority(8) ავტორიზაციის ფაილების ინტერპრეტაცია."
+
+#: src/pkla-check-authorization.c:393
+#, c-format
+msgid ""
+"%s: unexpected number of arguments\n"
+"Run `%s --help' for more information.\n"
+msgstr ""
+"%s: არგუმენტების მოულოდნელი რაოდენობა\n"
+"მეტი ინფორმაციისთვის გამოიყენეთ '%s --help'.\n"
+
+#: src/pkla-check-authorization.c:414
+#, c-format
+msgid "%s: Invalid user `%s': %s\n"
+msgstr "%s: არასწორი მომხმარებელი `%s': %s\n"
+
+#: src/pkla-check-authorization.c:422 src/pkla-check-authorization.c:430
+#, c-format
+msgid "%s: Invalid boolean `%s': %s\n"
+msgstr "%s: არასწორი ლოგიკური მნიშვნელობა `%s': %s\n"
